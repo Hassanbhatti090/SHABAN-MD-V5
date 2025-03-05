@@ -36,13 +36,13 @@
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
       "required": true,
-      "value": "false"  
+      "value": "true"  
     },    
   
     "AUTO_VOICE": {
       "description": "Make it true if want automatic voice reply .",
       "required": false,
-      "value": "false"
+      "value": "true"
     }, 
 
     "AUTO_REPLY": {
@@ -80,13 +80,13 @@
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "Mʀ✰Sʜᴀʙᴀɴ"
+      "value": "KING"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "923059395959"
+      "value": "994403032298"
 
     }, 
 
@@ -126,13 +126,13 @@
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "Mʀ✰Sʜᴀʙᴀɴ"
+      "value": "KING"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "923059395959"
+      "value": "994403032298"
 
     }, 
 
@@ -152,7 +152,7 @@
     
     "AUTO_STATUS_REACT": {
       "description": "status auto like or react make it true or false.",
-      "required": false,
+      "required": true,
       "value": "true"
     }, 
     
@@ -163,8 +163,8 @@
     },
 
       "DELETE_LINKS": {
-      "description": "remove links from group automatically without removing member",
-      "required": false,
+      "description": "true",
+      "required": "true"
       "value": "true"
     },
     
@@ -180,21 +180,21 @@
       "value": "false"
     },
 
-    "AUTO_REACT": {
-      "description": "Make it true if you want react on every message.",
+    "AUTO_REACT"
+      "description": "true",
       "required": false,
       "value": "false"
     },
     
     "CUSTOM_REACT": {
-      "description": "Make it true if you want custom reactions.",
+      "description": "true",
       "required": false,
       "value": "true"
       
     }, 
     
     "CUSTOM_REACT_EMOJIS": {
-      "description": "put here custom react react emojis.",
+      "description": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
       "required": false,
       "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
     }, 
